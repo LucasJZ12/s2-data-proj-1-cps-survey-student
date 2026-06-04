@@ -21,8 +21,8 @@ public class Scatter {
     }
 
     private static JPanel createChartPanel(double[] x, double[] y) {
-        String chartTitle = "Log-Wages vs Education Years";
-        String xAxisLabel = "Education Years";
+        String chartTitle = "Log-Wages vs Education_Years";
+        String xAxisLabel = "Education_Years";
         String yAxisLabel = "Log-Wages";
 
         XYDataset dataset = createDataset(x, y);
